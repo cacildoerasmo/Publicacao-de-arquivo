@@ -1,0 +1,50 @@
+<html lang="pt">
+<head>
+   <meta charset="utf-8">
+</head>
+
+<style>
+body {
+background: white;
+width: 100%;
+}
+</style>
+<body>
+<h1> Fase 1 do projecto (Primeiros passos)</h1>
+
+<h3> Objectivos: </h3>
+Esta primeira fase tem como objectivo criar a parte básica do site, considerando como parte básica o seguinte: A home-page, pagina de login, pagina de cadastro, area de administração, adição de administradores, pagina de perfil e edição de alguns campos do perfil. A previsão para esta fase é de cerca de uma semana (7 dias), caso nao seja possivel, o tempo poderá ser incrementado durante o desenvolvimento. Previsão: de 11/08/2020 até 18/08/2020.<b> Vamos ao trabalho.</b>
+<h2>1. Início </h2>
+<h3> Login & Cadastro </h3><br>
+<b>previsão:</b>
+<i>de 11/08/2020 - 12/08/2020</i><br><br>
+
+<b> Front-end: </b><br>
+ <p>Criar uma home-page com nave-bar da página, a nav-bar deve ter links que refenciam informações contidas em div na mesma página, informações como: 'como funciona', 'quem pode acessar', 'o que é o site' e outras.</p>
+  <p>Alem da nav bar local, deve ter tambem um menu para páginas exteriores ("sobre nós", "políticas de privacidade" e "regras da comunidade").</p>
+  <p>O cabeçalho deve estar num php e usar-se um include, assim como o rodapé.
+  </p>
+  <p> A página de cadastro deve conter os seguintes campos: nome(type=text), email(type=email), senha(type=password), provincia[type=select(10 prov. de Mz), com opcao de fora de moçambique].</p>
+  <p>A página de login deve conter apenas dois campos: email e senha</p>
+  
+  <br>
+<b> Back-end:</b><br>
+  <p>Script de login e cadastro, o login rece as seguintes variaveis passadas pelo metodo post: email, nome, senha e provincia. Nenhum destes campos deve estar vazio no cadastro, e o email deve ser confirmado(phpmailer) ou pelo menos filtrado(filter). Os dados devem ser guardados na tablea usuários da base de dados. Após o login ou cadascro, o `users` deve ser redirecionado para a página de perfil que até então estará vazia. No processo de cadastro de usuários, deve ser guardado na tabela `users`, na coluna `nivel` o texto `user` que indica que este é um usuário simples e não faz parte da administração</p>
+  
+<br>
+<b> Base dados:</b><br>
+  <p> Por enquanto, a base de dados deve ter a tabela `users` com as seguintes colunas (`id`, `name`, `email`, `password`, `nivel`, `adress`);
+</p><br>
+
+Não podemos correr com as coisas, por isso, por hoje é tudo. Mãos a obra, temos até 12/08/20 às 14h para terminar ou podemos prolongar, tudo depende de nós.
+
+<br><br>
+Muito obrigado por ler, esperando críticas, acrescimos ou contribuições. Até mais.
+
+
+</body>
+
+</html>
+
+
+

@@ -1,6 +1,6 @@
 # Publicar-arquivo
 
-Sistema Web, para publicacao de livros. Apartir deste sistema é possível publicar arquivos em pdf, ppt, word, etc. Para a publicacao do livro antes deve - se fazer login e acessar o sistema onde já poderá ser publicado os arquivos.
+Sistema Web, para publicar arquivos. Apartir deste sistema é possível publicar arquivos em pdf, ppt, word, etc. Para a publicacao do livro antes deve - se fazer login e acessar o sistema onde já poderá ser publicado os arquivos.
 
 # Tecnologias e Ferramentas usadas
  * PHP
